@@ -67,8 +67,8 @@ npx skills use uiYzzi/skills@de-ai-zh --agent claude-code
 
 这个技能的判断不是凭空来的，下面这些资料各自有贡献。
 
-维基百科的 AI 写作特征页是最早把均值回归讲清楚的地方，模式清单的底子也在这里。blader/humanizer 第一个把这套规律做成了 skill，它的 detection guidance 讲 cluster 原则和真人信号，翻译版没收这部分。shuorenhua 是中文去味技能里最完善的，保护清单、两步回读、改写分档、变体归并都从它的设计里借过来。avoid-ai-writing 本质层做得最透，过度打磨警告、Tier 分级、context profile 的矩阵都参考了它。
+[维基百科的 AI 写作特征页](https://en.wikipedia.org/wiki/Wikipedia:LLMSIGNS)（Wikipedia:Signs of AI writing）是最早把均值回归讲清楚的地方，模式清单的底子也在这里。 [blader/humanizer](https://github.com/blader/humanizer) 第一个把这套规律做成了 skill，它的 detection guidance 讲 cluster 原则和真人信号，翻译版没收这部分。 [shuorenhua](https://github.com/MrGeDiao/shuorenhua)（说人话）是中文去味技能里最完善的，保护清单、两步回读、改写分档、变体归并都从它的设计里借过来。 [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) 本质层做得最透，过度打磨警告、Tier 分级、context profile 的矩阵都参考了它。
 
-stop-slop 结构精炼，主文件加 references 的分层就是从它来的。De-AI-Prompt-Enhancer 项目的 ai-trace-detector 细节密度极高，分析师讲解语姿、关联句式过度标记、戏剧化揭露修辞这几族都是从它细化出来的。chujianyun 的去 AI 味 skill 贡献了判词腔、资料味讲义味、删拆换顺接五字口诀。李继刚的个人写作 skill 贡献了不自标深度和翻译腔免疫检验。Towards AI 的写作指南给了 writer/judge 双模型循环的思路。
+[stop-slop](https://github.com/hardikpandya/stop-slop) 结构精炼，主文件加 references 的分层就是从它来的。 [De-AI-Prompt-Enhancer](https://github.com/OUBIGFA/De-AI-Prompt-Enhancer-Writer-Booster-SKILL) 项目的 ai-trace-detector 细节密度极高，分析师讲解语姿、关联句式过度标记、戏剧化揭露修辞这几族都是从它细化出来的。 [chujianyun/skills](https://github.com/chujianyun/skills) 里的 remove-ai-flavor 贡献了判词腔、资料味讲义味、删拆换顺接五字口诀。 [李继刚的写作引擎](https://github.com/lijigang/ljg-skills) 贡献了不自标深度和翻译腔免疫检验。 [Towards AI 的 anti-slop 框架](https://academy.towardsai.net/products/digital_downloads/anti-slop-framework) 给了 writer/judge 双模型循环的思路。
 
-我有一套面向脚本、小说、文案的创作硬规则，涵盖句式节奏、标点、否定、形容词、比喻。这些是创作向的绝对禁令来源，一章最多两处比喻、一个名词最多一个修饰、全文禁破折号，都从这里来的。平克的《风格感觉》和加里·普罗沃斯特的句长变化给节奏那节提供了活教材，桑德森的写作讲义贡献了信息密度的判断，斯科特·亚历山大的非虚构写作建议给了同主语开头连续这条。番茄小说的 AI 文治理报道和出版界报道，为误伤风险和信任危机提供了现实佐证。少数派作者的真实对照实验验证了 Skill 能去掉四到五成 AI 味，也给出了标点禁令的间接机制和 Skill 能力的现实边界。
+我有一套面向脚本、小说、文案的创作硬规则，涵盖句式节奏、标点、否定、形容词、比喻。这些是创作向的绝对禁令来源，一章最多两处比喻、一个名词最多一个修饰、全文禁破折号，都从这里来的。平克的《风格感觉》和加里·普罗沃斯特的句长变化给节奏那节提供了活教材，桑德森的写作讲义贡献了信息密度的判断，斯科特·亚历山大的非虚构写作建议给了同主语开头连续这条。番茄小说的 AI 文治理报道和出版界报道，为误伤风险和信任危机提供了现实佐证。少数派作者的[真实对照实验](https://buaq.net/go-414704.html)验证了 Skill 能去掉四到五成 AI 味，也给出了标点禁令的间接机制和 Skill 能力的现实边界。
